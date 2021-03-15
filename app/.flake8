@@ -1,5 +1,5 @@
 [exclude] =
-    migrations
+    migrations,
     __pycache__,
     manage.py,
     settings.py,
