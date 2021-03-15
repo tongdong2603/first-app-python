@@ -2,6 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="e3da7186-edcd-4630-a09c-d1efc7e46e01" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/.flake8" beforeDir="false" afterPath="$PROJECT_DIR$/app/.flake8" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -74,7 +75,7 @@
       <workItem from="1615539751749" duration="2636000" />
       <workItem from="1615776279345" duration="484000" />
       <workItem from="1615780241343" duration="1026000" />
-      <workItem from="1615782293571" duration="3692000" />
+      <workItem from="1615782293571" duration="4664000" />
     </task>
     <servers />
   </component>
