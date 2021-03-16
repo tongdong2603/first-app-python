@@ -2,13 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="e3da7186-edcd-4630-a09c-d1efc7e46e01" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/app/core/tests/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/core/tests/test_models.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/restApiProjectForlder.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/restApiProjectForlder.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/.flake8" beforeDir="false" afterPath="$PROJECT_DIR$/app/.flake8" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/app/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/app/app/settings.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/core/models.py" beforeDir="false" afterPath="$PROJECT_DIR$/app/core/models.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/core/tests/test_models.py" beforeDir="false" afterPath="$PROJECT_DIR$/app/core/tests/test_models.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/db.sqlite3" beforeDir="false" afterPath="$PROJECT_DIR$/app/db.sqlite3" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -80,7 +77,8 @@
       <workItem from="1615539751749" duration="2636000" />
       <workItem from="1615776279345" duration="484000" />
       <workItem from="1615780241343" duration="1026000" />
-      <workItem from="1615782293571" duration="11072000" />
+      <workItem from="1615782293571" duration="12952000" />
+      <workItem from="1615861637507" duration="13948000" />
     </task>
     <servers />
   </component>
@@ -97,5 +95,6 @@
         </entry>
       </map>
     </option>
+    <option name="oldMeFiltersMigrated" value="true" />
   </component>
 </project>
