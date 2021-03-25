@@ -32,15 +32,22 @@ ALLOWED_HOSTS = []
 # Application definition
 
 INSTALLED_APPS = [
-    'django.contrib.admin',
     'django.contrib.auth',
+    'django.contrib.messages',
+    'django.contrib.admin',
     'django.contrib.contenttypes',
     'django.contrib.sessions',
-    'django.contrib.messages',
     'django.contrib.staticfiles',
+    'django.contrib.sites',
     'corsheaders',
     'rest_framework',
-    'base.apps.BaseConfig'
+    'base.apps.BaseConfig',
+
+    'allauth',
+    'allauth.account',
+    'allauth.socialaccount',
+    'allauth.socialaccount.providers.facebook',
+
 ]
 
 REST_FRAMEWORK = {
@@ -109,6 +116,14 @@ TEMPLATES = [
     },
 ]
 
+AUTHENTICATION_BACKENDS = [
+    # Needed to login by username in Django admin, regardless of `allauth`
+    'django.contrib.auth.backends.ModelBackend',
+
+    # `allauth` specific authentication methods, such as login by e-mail
+    'allauth.account.auth_backends.AuthenticationBackend',
+]
+
 WSGI_APPLICATION = 'backend.wsgi.application'
 
 # Database
@@ -152,6 +167,9 @@ USE_L10N = True
 
 USE_TZ = True
 
+SOCIAL_AUTH_FACEBOOK_KEY = '714635152547345'
+SOCIAL_AUTH_FACEBOOK_SECRET = 'd932253470d90209f4695ce052a210b8'
+
 # Static files (CSS, JavaScript, Images)
 # https://docs.djangoproject.com/en/3.1/howto/static-files/
 
@@ -165,3 +183,5 @@ STATICFILES_DIRS = [
 MEDIA_ROOT = 'static/image'
 
 CORS_ALLOW_ALL_ORIGINS = True
+
+SITE_ID = 1
